@@ -1,0 +1,581 @@
+# Polish (Poland) translation for Pregnancy Due Date Calculator
+# Copyright (C) 2025 Pregnancy Due Date Calculator
+# This file is distributed under the same license as the Pregnancy Due Date Calculator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pregnancy Due Date Calculator 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pregnancy-due-"
+"date-calculator-main\n"
+"POT-Creation-Date: 2025-10-27T03:05:26+00:00\n"
+"PO-Revision-Date: 2025-10-27 00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Polish (Poland)\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Stratonoakland's Pregnancy Due Date Calculator"
+msgstr "Kalkulator terminu porodu Stratonoakland"
+
+#. Plugin URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com/pregnancy-calculator"
+msgstr ""
+
+#. Description of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Adds a shortcode [pregnancy_due_date_calculator] to display a pregnancy due date calculator with full multilingual support for 8 languages and Gutenberg block integration."
+msgstr "Dodaje shortcode [pregnancy_due_date_calculator], aby wyświetlić kalkulator terminu porodu z pełnym wsparciem wielojęzycznym dla 17 języków oraz integracją z blokiem Gutenberg."
+
+#. Author of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Valandi Angelidis"
+msgstr ""
+
+#. Author URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com"
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:71
+msgid "Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP %s. Please upgrade PHP to use this plugin."
+msgstr "Kalkulator Terminu Porodu wymaga PHP %s lub nowszego. Używasz PHP %s. Zaktualizuj PHP, aby używać tej wtyczki."
+
+#: pregnancy-due-date-calculator.php:85
+msgid "Pregnancy Due Date Calculator requires WordPress %s or higher. You are running WordPress %s. Please upgrade WordPress to use this plugin."
+msgstr "Kalkulator Terminu Porodu wymaga WordPress %s lub nowszego. Używasz WordPress %s. Zaktualizuj WordPress, aby używać tej wtyczki."
+
+#: pregnancy-due-date-calculator.php:157
+#: pregnancy-due-date-calculator.php:383
+#: pregnancy-due-date-calculator.php:569
+#: assets/block.js:309
+#: assets/block.js:803
+msgid "Find Your Estimated Due Date"
+msgstr "Znajdź Swój Przewidywany Termin Porodu"
+
+#: pregnancy-due-date-calculator.php:400
+#: pregnancy-due-date-calculator.php:577
+#: assets/block.js:350
+#: assets/block.js:812
+msgid "Enter the first day of your last menstrual period to calculate your estimated due date."
+msgstr "Wprowadź pierwszy dzień ostatniej miesiączki, aby obliczyć przewidywany termin porodu."
+
+#: pregnancy-due-date-calculator.php:450
+#: pregnancy-due-date-calculator.php:593
+#: pregnancy-due-date-calculator.php:960
+#: assets/block.js:604
+#: assets/block.js:833
+msgid "Day"
+msgstr "Dzień"
+
+#: pregnancy-due-date-calculator.php:454
+#: pregnancy-due-date-calculator.php:594
+#: pregnancy-due-date-calculator.php:961
+#: assets/block.js:624
+#: assets/block.js:857
+msgid "Month"
+msgstr "Miesiąc"
+
+#: pregnancy-due-date-calculator.php:458
+#: pregnancy-due-date-calculator.php:595
+#: pregnancy-due-date-calculator.php:962
+#: assets/block.js:644
+#: assets/block.js:881
+msgid "Year"
+msgstr "Rok"
+
+#: pregnancy-due-date-calculator.php:463
+#: pregnancy-due-date-calculator.php:598
+#: pregnancy-due-date-calculator.php:964
+#: assets/block.js:614
+msgid "Select Day"
+msgstr "Wybierz Dzień"
+
+#: pregnancy-due-date-calculator.php:467
+#: pregnancy-due-date-calculator.php:599
+#: pregnancy-due-date-calculator.php:965
+#: assets/block.js:634
+msgid "Select Month"
+msgstr "Wybierz Miesiąc"
+
+#: pregnancy-due-date-calculator.php:471
+#: pregnancy-due-date-calculator.php:600
+#: pregnancy-due-date-calculator.php:966
+#: assets/block.js:654
+msgid "Select Year"
+msgstr "Wybierz Rok"
+
+#: pregnancy-due-date-calculator.php:474
+#: pregnancy-due-date-calculator.php:604
+#: pregnancy-due-date-calculator.php:968
+#: assets/block.js:664
+msgid "January"
+msgstr "Styczeń"
+
+#: pregnancy-due-date-calculator.php:475
+#: pregnancy-due-date-calculator.php:605
+#: pregnancy-due-date-calculator.php:969
+#: assets/block.js:671
+msgid "February"
+msgstr "Luty"
+
+#: pregnancy-due-date-calculator.php:476
+#: pregnancy-due-date-calculator.php:606
+#: pregnancy-due-date-calculator.php:970
+#: assets/block.js:678
+msgid "March"
+msgstr "Marzec"
+
+#: pregnancy-due-date-calculator.php:477
+#: pregnancy-due-date-calculator.php:607
+#: pregnancy-due-date-calculator.php:971
+#: assets/block.js:685
+msgid "April"
+msgstr "Kwiecień"
+
+#: pregnancy-due-date-calculator.php:478
+#: pregnancy-due-date-calculator.php:608
+#: pregnancy-due-date-calculator.php:972
+#: assets/block.js:692
+msgid "May"
+msgstr "Maj"
+
+#: pregnancy-due-date-calculator.php:479
+#: pregnancy-due-date-calculator.php:609
+#: pregnancy-due-date-calculator.php:973
+#: assets/block.js:699
+msgid "June"
+msgstr "Czerwiec"
+
+#: pregnancy-due-date-calculator.php:480
+#: pregnancy-due-date-calculator.php:610
+#: pregnancy-due-date-calculator.php:974
+#: assets/block.js:706
+msgid "July"
+msgstr "Lipiec"
+
+#: pregnancy-due-date-calculator.php:481
+#: pregnancy-due-date-calculator.php:611
+#: pregnancy-due-date-calculator.php:975
+#: assets/block.js:713
+msgid "August"
+msgstr "Sierpień"
+
+#: pregnancy-due-date-calculator.php:482
+#: pregnancy-due-date-calculator.php:612
+#: pregnancy-due-date-calculator.php:976
+#: assets/block.js:720
+msgid "September"
+msgstr "Wrzesień"
+
+#: pregnancy-due-date-calculator.php:483
+#: pregnancy-due-date-calculator.php:613
+#: pregnancy-due-date-calculator.php:977
+#: assets/block.js:727
+msgid "October"
+msgstr "Październik"
+
+#: pregnancy-due-date-calculator.php:484
+#: pregnancy-due-date-calculator.php:614
+#: pregnancy-due-date-calculator.php:978
+#: assets/block.js:734
+msgid "November"
+msgstr "Listopad"
+
+#: pregnancy-due-date-calculator.php:485
+#: pregnancy-due-date-calculator.php:615
+#: pregnancy-due-date-calculator.php:979
+#: assets/block.js:741
+msgid "December"
+msgstr "Grudzień"
+
+#: pregnancy-due-date-calculator.php:489
+#: pregnancy-due-date-calculator.php:625
+#: pregnancy-due-date-calculator.php:1000
+#: assets/block.js:755
+#: assets/block.js:993
+msgid "These are estimates only. For personalized advice, consult your clinician."
+msgstr "To są tylko szacunki. W celu uzyskania spersonalizowanej porady skonsultuj się z lekarzem."
+
+#: pregnancy-due-date-calculator.php:503
+#: pregnancy-due-date-calculator.php:630
+#: pregnancy-due-date-calculator.php:999
+#: assets/block.js:781
+msgid "Please select a day, month, and year."
+msgstr "Wybierz dzień, miesiąc i rok."
+
+#: pregnancy-due-date-calculator.php:548
+msgid "Calculator failed to load. Please check plugin installation."
+msgstr "Nie udało się załadować kalkulatora. Sprawdź instalację wtyczki."
+
+#: pregnancy-due-date-calculator.php:746
+#: pregnancy-due-date-calculator.php:957
+#: assets/block.js:924
+msgid "Calculate Due Date"
+msgstr "Oblicz Termin Porodu"
+
+#: pregnancy-due-date-calculator.php:782
+msgid "Calculator failed to load. Please try again later."
+msgstr "Nie udało się załadować kalkulatora. Spróbuj ponownie później."
+
+#: pregnancy-due-date-calculator.php:958
+#: assets/block.js:9
+msgid "Pregnancy Due Date Calculator"
+msgstr "Kalkulator Terminu Porodu"
+
+#: pregnancy-due-date-calculator.php:959
+msgid "Enter the first day of your last menstrual period"
+msgstr "Wprowadź pierwszy dzień ostatniej miesiączki"
+
+#: pregnancy-due-date-calculator.php:981
+msgid "Your Estimated Due Date:"
+msgstr "Twój Przewidywany Termin Porodu:"
+
+#: pregnancy-due-date-calculator.php:982
+msgid "Estimated Due Date"
+msgstr "Przewidywany Termin Porodu"
+
+#: pregnancy-due-date-calculator.php:983
+msgid "Important Stages"
+msgstr "Ważne Etapy"
+
+#: pregnancy-due-date-calculator.php:984
+msgid "Last Menstrual Period:"
+msgstr "Ostatnia Miesiączka:"
+
+#: pregnancy-due-date-calculator.php:985
+msgid "Conception Date:"
+msgstr "Data Poczęcia:"
+
+#: pregnancy-due-date-calculator.php:986
+msgid "First Trimester Begins:"
+msgstr "Początek Pierwszego Trymestru:"
+
+#: pregnancy-due-date-calculator.php:987
+msgid "Second Trimester Begins:"
+msgstr "Początek Drugiego Trymestru:"
+
+#: pregnancy-due-date-calculator.php:988
+msgid "Third Trimester Begins:"
+msgstr "Początek Trzeciego Trymestru:"
+
+#: pregnancy-due-date-calculator.php:990
+msgid "Weeks Pregnant:"
+msgstr "Tygodni Ciąży:"
+
+#: pregnancy-due-date-calculator.php:991
+msgid "Pregnancy Progress"
+msgstr "Postęp Ciąży"
+
+#: pregnancy-due-date-calculator.php:992
+msgid "Time remaining:"
+msgstr "Czas pozostały:"
+
+#: pregnancy-due-date-calculator.php:993
+msgid "months"
+msgstr "miesiące"
+
+#: pregnancy-due-date-calculator.php:994
+msgid "days"
+msgstr "dni"
+
+#: pregnancy-due-date-calculator.php:995
+msgid "week"
+msgstr "tydzień"
+
+#: pregnancy-due-date-calculator.php:996
+msgid "weeks"
+msgstr "tygodnie"
+
+#: pregnancy-due-date-calculator.php:998
+msgid "Invalid date selected"
+msgstr "Wybrano nieprawidłową datę"
+
+#: pregnancy-due-date-calculator.php:1031
+msgid "Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP %s."
+msgstr "Kalkulator Terminu Porodu wymaga PHP %s lub nowszego. Używasz PHP %s."
+
+#: pregnancy-due-date-calculator.php:1044
+msgid "Pregnancy Due Date Calculator requires WordPress %s or higher. You are running WordPress %s."
+msgstr "Kalkulator Terminu Porodu wymaga WordPress %s lub nowszego. Używasz WordPress %s."
+
+#: assets/block.js:10
+msgid "A calculator to determine pregnancy due dates with Greek and English support."
+msgstr "Kalkulator do określania terminów porodu z obsługą języka greckiego i angielskiego."
+
+#: assets/block.js:14
+msgid "pregnancy"
+msgstr "ciąża"
+
+#: assets/block.js:15
+msgid "due date"
+msgstr "termin porodu"
+
+#: assets/block.js:16
+msgid "calculator"
+msgstr "kalkulator"
+
+#: assets/block.js:276
+msgid "Left"
+msgstr "Lewo"
+
+#: assets/block.js:277
+msgid "Center"
+msgstr "Środek"
+
+#: assets/block.js:278
+msgid "Right"
+msgstr "Prawo"
+
+#: assets/block.js:302
+msgid "Title Section"
+msgstr "Sekcja Tytułu"
+
+#: assets/block.js:305
+msgid "Custom Title Text"
+msgstr "Niestandardowy Tekst Tytułu"
+
+#: assets/block.js:316
+msgid "Title Alignment"
+msgstr "Wyrównanie Tytułu"
+
+#: assets/block.js:324
+msgid "Title Font Family"
+msgstr "Rodzina Czcionki Tytułu"
+
+#: assets/block.js:331
+msgid "Title Color"
+msgstr "Kolor Tytułu"
+
+#: assets/block.js:343
+msgid "Subtitle Section"
+msgstr "Sekcja Podtytułu"
+
+#: assets/block.js:346
+msgid "Custom Subtitle Text"
+msgstr "Niestandardowy Tekst Podtytułu"
+
+#: assets/block.js:357
+msgid "Subtitle Alignment"
+msgstr "Wyrównanie Podtytułu"
+
+#: assets/block.js:365
+msgid "Subtitle Font Family"
+msgstr "Rodzina Czcionki Podtytułu"
+
+#: assets/block.js:372
+msgid "Subtitle Color"
+msgstr "Kolor Podtytułu"
+
+#: assets/block.js:383
+msgid "Display Settings"
+msgstr "Ustawienia Wyświetlania"
+
+#: assets/block.js:387
+msgid "Alignment"
+msgstr "Wyrównanie"
+
+#: assets/block.js:395
+msgid "Show Progress Bar"
+msgstr "Pokaż Pasek Postępu"
+
+#: assets/block.js:396
+msgid "Display pregnancy progress bar with percentage."
+msgstr "Wyświetl pasek postępu ciąży z procentami."
+
+#: assets/block.js:403
+msgid "Show Weeks Count"
+msgstr "Pokaż Liczbę Tygodni"
+
+#: assets/block.js:404
+msgid "Display remaining weeks and days in progress section."
+msgstr "Wyświetl pozostałe tygodnie i dni w sekcji postępu."
+
+#: assets/block.js:411
+msgid "Show Disclaimer Note"
+msgstr "Pokaż Notatkę Zastrzeżenia"
+
+#: assets/block.js:412
+msgid "Display disclaimer text about estimates."
+msgstr "Wyświetl tekst zastrzeżenia o szacunkach."
+
+#: assets/block.js:420
+msgid "Styling"
+msgstr "Stylizacja"
+
+#: assets/block.js:423
+msgid "Background Color"
+msgstr "Kolor Tła"
+
+#: assets/block.js:431
+msgid "Text Color"
+msgstr "Kolor Tekstu"
+
+#: assets/block.js:440
+msgid "Border Radius (px)"
+msgstr "Promień Obramowania (px)"
+
+#: assets/block.js:449
+msgid "Padding (px)"
+msgstr "Wypełnienie (px)"
+
+#: assets/block.js:458
+msgid "Max Width (px)"
+msgstr "Maksymalna Szerokość (px)"
+
+#: assets/block.js:470
+msgid "Controls Styling"
+msgstr "Stylizacja Kontrolek"
+
+#: assets/block.js:473
+msgid "Label Color"
+msgstr "Kolor Etykiety"
+
+#: assets/block.js:481
+msgid "Dropdown Style"
+msgstr "Styl Listy Rozwijanej"
+
+#: assets/block.js:485
+#: assets/block.js:585
+msgid "Light"
+msgstr "Jasny"
+
+#: assets/block.js:486
+msgid "Dark"
+msgstr "Ciemny"
+
+#: assets/block.js:492
+msgid "Dropdown Background Color"
+msgstr "Kolor Tła Listy Rozwijanej"
+
+#: assets/block.js:504
+msgid "Progress Bar Styles"
+msgstr "Style Paska Postępu"
+
+#: assets/block.js:507
+msgid "Progress Bar Fill Color"
+msgstr "Kolor Wypełnienia Paska Postępu"
+
+#: assets/block.js:515
+msgid "Progress Text Color"
+msgstr "Kolor Tekstu Postępu"
+
+#: assets/block.js:523
+msgid "Weeks Count Color"
+msgstr "Kolor Liczby Tygodni"
+
+#: assets/block.js:535
+msgid "Button Styles"
+msgstr "Style Przycisku"
+
+#: assets/block.js:538
+msgid "Button Background Color"
+msgstr "Kolor Tła Przycisku"
+
+#: assets/block.js:546
+msgid "Button Text Color"
+msgstr "Kolor Tekstu Przycisku"
+
+#: assets/block.js:554
+msgid "Button Hover Background Color"
+msgstr "Kolor Tła Przycisku Po Najechaniu"
+
+#: assets/block.js:563
+msgid "Button Margin (px)"
+msgstr "Margines Przycisku (px)"
+
+#: assets/block.js:572
+msgid "Button Border Radius (px)"
+msgstr "Promień Obramowania Przycisku (px)"
+
+#: assets/block.js:581
+msgid "Button Shadow"
+msgstr "Cień Przycisku"
+
+#: assets/block.js:584
+msgid "None"
+msgstr "Brak"
+
+#: assets/block.js:586
+msgid "Medium"
+msgstr "Średni"
+
+#: assets/block.js:587
+msgid "Deep"
+msgstr "Głęboki"
+
+#: assets/block.js:597
+msgid "Form Labels"
+msgstr "Etykiety Formularza"
+
+#: assets/block.js:600
+msgid "Day Label"
+msgstr "Etykieta Dnia"
+
+#: assets/block.js:610
+msgid "Day Placeholder"
+msgstr "Symbol Zastępczy Dnia"
+
+#: assets/block.js:620
+msgid "Month Label"
+msgstr "Etykieta Miesiąca"
+
+#: assets/block.js:630
+msgid "Month Placeholder"
+msgstr "Symbol Zastępczy Miesiąca"
+
+#: assets/block.js:640
+msgid "Year Label"
+msgstr "Etykieta Roku"
+
+#: assets/block.js:650
+msgid "Year Placeholder"
+msgstr "Symbol Zastępczy Roku"
+
+#: assets/block.js:660
+msgid "Custom Month Names"
+msgstr "Niestandardowe Nazwy Miesięcy"
+
+#: assets/block.js:749
+msgid "Note Section"
+msgstr "Sekcja Notatki"
+
+#: assets/block.js:752
+msgid "Custom Note Text"
+msgstr "Niestandardowy Tekst Notatki"
+
+#: assets/block.js:761
+msgid "Note Background Color"
+msgstr "Kolor Tła Notatki"
+
+#: assets/block.js:769
+msgid "Note Text Color"
+msgstr "Kolor Tekstu Notatki"
+
+#: assets/block.js:777
+msgid "Validation Message"
+msgstr "Komunikat Walidacji"
+
+#: assets/block.js:845
+msgid "Select day"
+msgstr "Wybierz dzień"
+
+#: assets/block.js:869
+msgid "Select month"
+msgstr "Wybierz miesiąc"
+
+#: assets/block.js:893
+msgid "Select year"
+msgstr "Wybierz rok"
+
+#: assets/block.js:936
+msgid "Results will appear here after calculation"
+msgstr "Wyniki pojawią się tutaj po obliczeniu"
+
+#: assets/block.js:973
+msgid "Progress bar preview"
+msgstr "Podgląd paska postępu"

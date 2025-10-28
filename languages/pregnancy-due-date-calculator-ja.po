@@ -1,0 +1,560 @@
+# Japanese translation for Pregnancy Due Date Calculator
+# Copyright (C) 2024 Pregnancy Due Date Calculator
+# This file is distributed under the same license as the Pregnancy Due Date Calculator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pregnancy Due Date Calculator 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pregnancy-due-"
+"date-calculator-main\n"
+"POT-Creation-Date: 2025-10-27T03:05:26+00:00\n"
+"PO-Revision-Date: 2024-01-01 00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Plugin Name of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Stratonoakland's Pregnancy Due Date Calculator"
+msgstr "Stratonoakland 出産予定日計算ツール"
+
+#. Plugin URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com/pregnancy-calculator"
+msgstr ""
+
+#. Description of the plugin
+#: pregnancy-due-date-calculator.php
+msgid ""
+"Adds a shortcode [pregnancy_due_date_calculator] to display a pregnancy due "
+"date calculator with full multilingual support for 8 languages and Gutenberg "
+"block integration."
+msgstr "ショートコード [pregnancy_due_date_calculator] を追加して、17 言語に完全対応し Gutenberg ブロックとも統合された出産予定日計算ツールを表示します。"
+
+#. Author of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Valandi Angelidis"
+msgstr ""
+
+#. Author URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com"
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:71
+msgid ""
+"Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP "
+"%s. Please upgrade PHP to use this plugin."
+msgstr "Pregnancy Due Date Calculator を利用するには PHP %s 以上が必要です。現在の PHP バージョンは %s です。プラグインを使用するには PHP をアップグレードしてください。"
+
+#: pregnancy-due-date-calculator.php:85
+msgid ""
+"Pregnancy Due Date Calculator requires WordPress %s or higher. You are "
+"running WordPress %s. Please upgrade WordPress to use this plugin."
+msgstr "Pregnancy Due Date Calculator を利用するには WordPress %s 以上が必要です。現在の WordPress バージョンは %s です。プラグインを使用するには WordPress をアップグレードしてください。"
+
+#: pregnancy-due-date-calculator.php:157 pregnancy-due-date-calculator.php:383
+#: pregnancy-due-date-calculator.php:569 assets/block.js:309
+#: assets/block.js:803
+msgid "Find Your Estimated Due Date"
+msgstr "予定日を確認する"
+
+#: pregnancy-due-date-calculator.php:400 pregnancy-due-date-calculator.php:577
+#: assets/block.js:350 assets/block.js:812
+msgid ""
+"Enter the first day of your last menstrual period to calculate your "
+"estimated due date."
+msgstr "最終月経の初日を入力して、予定日を計算してください。"
+
+#: pregnancy-due-date-calculator.php:450 pregnancy-due-date-calculator.php:593
+#: pregnancy-due-date-calculator.php:960 assets/block.js:604
+#: assets/block.js:833
+msgid "Day"
+msgstr "日"
+
+#: pregnancy-due-date-calculator.php:454 pregnancy-due-date-calculator.php:594
+#: pregnancy-due-date-calculator.php:961 assets/block.js:624
+#: assets/block.js:857
+msgid "Month"
+msgstr "月"
+
+#: pregnancy-due-date-calculator.php:458 pregnancy-due-date-calculator.php:595
+#: pregnancy-due-date-calculator.php:962 assets/block.js:644
+#: assets/block.js:881
+msgid "Year"
+msgstr "年"
+
+#: pregnancy-due-date-calculator.php:463 pregnancy-due-date-calculator.php:598
+#: pregnancy-due-date-calculator.php:964 assets/block.js:614
+msgid "Select Day"
+msgstr "日を選択"
+
+#: pregnancy-due-date-calculator.php:467 pregnancy-due-date-calculator.php:599
+#: pregnancy-due-date-calculator.php:965 assets/block.js:634
+msgid "Select Month"
+msgstr "月を選択"
+
+#: pregnancy-due-date-calculator.php:471 pregnancy-due-date-calculator.php:600
+#: pregnancy-due-date-calculator.php:966 assets/block.js:654
+msgid "Select Year"
+msgstr "年を選択"
+
+#: pregnancy-due-date-calculator.php:474 pregnancy-due-date-calculator.php:604
+#: pregnancy-due-date-calculator.php:968 assets/block.js:664
+msgid "January"
+msgstr "1月"
+
+#: pregnancy-due-date-calculator.php:475 pregnancy-due-date-calculator.php:605
+#: pregnancy-due-date-calculator.php:969 assets/block.js:671
+msgid "February"
+msgstr "2月"
+
+#: pregnancy-due-date-calculator.php:476 pregnancy-due-date-calculator.php:606
+#: pregnancy-due-date-calculator.php:970 assets/block.js:678
+msgid "March"
+msgstr "3月"
+
+#: pregnancy-due-date-calculator.php:477 pregnancy-due-date-calculator.php:607
+#: pregnancy-due-date-calculator.php:971 assets/block.js:685
+msgid "April"
+msgstr "4月"
+
+#: pregnancy-due-date-calculator.php:478 pregnancy-due-date-calculator.php:608
+#: pregnancy-due-date-calculator.php:972 assets/block.js:692
+msgid "May"
+msgstr "5月"
+
+#: pregnancy-due-date-calculator.php:479 pregnancy-due-date-calculator.php:609
+#: pregnancy-due-date-calculator.php:973 assets/block.js:699
+msgid "June"
+msgstr "6月"
+
+#: pregnancy-due-date-calculator.php:480 pregnancy-due-date-calculator.php:610
+#: pregnancy-due-date-calculator.php:974 assets/block.js:706
+msgid "July"
+msgstr "7月"
+
+#: pregnancy-due-date-calculator.php:481 pregnancy-due-date-calculator.php:611
+#: pregnancy-due-date-calculator.php:975 assets/block.js:713
+msgid "August"
+msgstr "8月"
+
+#: pregnancy-due-date-calculator.php:482 pregnancy-due-date-calculator.php:612
+#: pregnancy-due-date-calculator.php:976 assets/block.js:720
+msgid "September"
+msgstr "9月"
+
+#: pregnancy-due-date-calculator.php:483 pregnancy-due-date-calculator.php:613
+#: pregnancy-due-date-calculator.php:977 assets/block.js:727
+msgid "October"
+msgstr "10月"
+
+#: pregnancy-due-date-calculator.php:484 pregnancy-due-date-calculator.php:614
+#: pregnancy-due-date-calculator.php:978 assets/block.js:734
+msgid "November"
+msgstr "11月"
+
+#: pregnancy-due-date-calculator.php:485 pregnancy-due-date-calculator.php:615
+#: pregnancy-due-date-calculator.php:979 assets/block.js:741
+msgid "December"
+msgstr "12月"
+
+#: pregnancy-due-date-calculator.php:489 pregnancy-due-date-calculator.php:625
+#: pregnancy-due-date-calculator.php:1000 assets/block.js:755
+#: assets/block.js:993
+msgid ""
+"These are estimates only. For personalized advice, consult your clinician."
+msgstr "これらは推定値です。個別のアドバイスについては、医師にご相談ください。"
+
+#: pregnancy-due-date-calculator.php:503 pregnancy-due-date-calculator.php:630
+#: pregnancy-due-date-calculator.php:999 assets/block.js:781
+msgid "Please select a day, month, and year."
+msgstr "日、月、年を選択してください。"
+
+#: pregnancy-due-date-calculator.php:548
+msgid "Calculator failed to load. Please check plugin installation."
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:746 pregnancy-due-date-calculator.php:957
+#: assets/block.js:924
+msgid "Calculate Due Date"
+msgstr "予定日を計算"
+
+#: pregnancy-due-date-calculator.php:782
+msgid "Calculator failed to load. Please try again later."
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:958 assets/block.js:9
+msgid "Pregnancy Due Date Calculator"
+msgstr "出産予定日計算機"
+
+#: pregnancy-due-date-calculator.php:959
+msgid "Enter the first day of your last menstrual period"
+msgstr "最終月経の初日を入力してください"
+
+#: pregnancy-due-date-calculator.php:981
+msgid "Your Estimated Due Date:"
+msgstr "あなたの予定日："
+
+#: pregnancy-due-date-calculator.php:982
+msgid "Estimated Due Date"
+msgstr "推定出産予定日"
+
+#: pregnancy-due-date-calculator.php:983
+msgid "Important Stages"
+msgstr "重要な段階"
+
+#: pregnancy-due-date-calculator.php:984
+msgid "Last Menstrual Period:"
+msgstr "最終月経："
+
+#: pregnancy-due-date-calculator.php:985
+msgid "Conception Date:"
+msgstr "受胎日："
+
+#: pregnancy-due-date-calculator.php:986
+msgid "First Trimester Begins:"
+msgstr "第1妊娠期開始："
+
+#: pregnancy-due-date-calculator.php:987
+msgid "Second Trimester Begins:"
+msgstr "第2妊娠期開始："
+
+#: pregnancy-due-date-calculator.php:988
+msgid "Third Trimester Begins:"
+msgstr "第3妊娠期開始："
+
+#: pregnancy-due-date-calculator.php:990
+msgid "Weeks Pregnant:"
+msgstr "妊娠週数："
+
+#: pregnancy-due-date-calculator.php:991
+msgid "Pregnancy Progress"
+msgstr "妊娠の進行状況"
+
+#: pregnancy-due-date-calculator.php:992
+msgid "Time remaining:"
+msgstr "残り時間："
+
+#: pregnancy-due-date-calculator.php:993
+msgid "months"
+msgstr "ヶ月"
+
+#: pregnancy-due-date-calculator.php:994
+msgid "days"
+msgstr "日"
+
+#: pregnancy-due-date-calculator.php:995
+msgid "week"
+msgstr "週"
+
+#: pregnancy-due-date-calculator.php:996
+msgid "weeks"
+msgstr "週"
+
+#: pregnancy-due-date-calculator.php:998
+msgid "Invalid date selected"
+msgstr "無効な日付が選択されました"
+
+#: pregnancy-due-date-calculator.php:1031
+msgid ""
+"Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP "
+"%s."
+msgstr "Pregnancy Due Date Calculator を利用するには PHP %s 以上が必要です。現在の PHP バージョンは %s です。"
+
+#: pregnancy-due-date-calculator.php:1044
+msgid ""
+"Pregnancy Due Date Calculator requires WordPress %s or higher. You are "
+"running WordPress %s."
+msgstr "Pregnancy Due Date Calculator を利用するには WordPress %s 以上が必要です。現在の WordPress バージョンは %s です。"
+
+# Block Editor Translations
+#: assets/block.js:10
+msgid ""
+"A calculator to determine pregnancy due dates with Greek and English support."
+msgstr "ギリシャ語と英語に対応した出産予定日を決定する計算機。"
+
+#: assets/block.js:14
+msgid "pregnancy"
+msgstr "妊娠"
+
+#: assets/block.js:15
+msgid "due date"
+msgstr "予定日"
+
+#: assets/block.js:16
+msgid "calculator"
+msgstr "計算機"
+
+#: assets/block.js:276
+msgid "Left"
+msgstr "左"
+
+#: assets/block.js:277
+msgid "Center"
+msgstr "中央"
+
+#: assets/block.js:278
+msgid "Right"
+msgstr "右"
+
+#: assets/block.js:302
+msgid "Title Section"
+msgstr "タイトルセクション"
+
+#: assets/block.js:305
+msgid "Custom Title Text"
+msgstr "カスタムタイトルテキスト"
+
+#: assets/block.js:316
+msgid "Title Alignment"
+msgstr "タイトルの配置"
+
+#: assets/block.js:324
+msgid "Title Font Family"
+msgstr "タイトルのフォントファミリー"
+
+#: assets/block.js:331
+msgid "Title Color"
+msgstr "タイトルの色"
+
+#: assets/block.js:343
+msgid "Subtitle Section"
+msgstr "サブタイトルセクション"
+
+#: assets/block.js:346
+msgid "Custom Subtitle Text"
+msgstr "カスタムサブタイトルテキスト"
+
+#: assets/block.js:357
+#, fuzzy
+msgid "Subtitle Alignment"
+msgstr "タイトルの配置"
+
+#: assets/block.js:365
+#, fuzzy
+msgid "Subtitle Font Family"
+msgstr "タイトルのフォントファミリー"
+
+#: assets/block.js:372
+#, fuzzy
+msgid "Subtitle Color"
+msgstr "タイトルの色"
+
+#: assets/block.js:383
+msgid "Display Settings"
+msgstr "表示設定"
+
+#: assets/block.js:387
+msgid "Alignment"
+msgstr "配置"
+
+#: assets/block.js:395
+msgid "Show Progress Bar"
+msgstr "進行バーを表示"
+
+#: assets/block.js:396
+msgid "Display pregnancy progress bar with percentage."
+msgstr "パーセンテージ付きの妊娠進行バーを表示します。"
+
+#: assets/block.js:403
+msgid "Show Weeks Count"
+msgstr "週数カウントを表示"
+
+#: assets/block.js:404
+msgid "Display remaining weeks and days in progress section."
+msgstr "進行セクションに残りの週数と日数を表示します。"
+
+#: assets/block.js:411
+msgid "Show Disclaimer Note"
+msgstr "免責事項を表示"
+
+#: assets/block.js:412
+msgid "Display disclaimer text about estimates."
+msgstr "推定値に関する免責事項テキストを表示します。"
+
+#: assets/block.js:420
+msgid "Styling"
+msgstr "スタイル"
+
+#: assets/block.js:423
+msgid "Background Color"
+msgstr "背景色"
+
+#: assets/block.js:431
+msgid "Text Color"
+msgstr "テキスト色"
+
+#: assets/block.js:440
+msgid "Border Radius (px)"
+msgstr "ボーダー半径 (px)"
+
+#: assets/block.js:449
+msgid "Padding (px)"
+msgstr "パディング (px)"
+
+#: assets/block.js:458
+msgid "Max Width (px)"
+msgstr "最大幅 (px)"
+
+#: assets/block.js:470
+msgid "Controls Styling"
+msgstr "コントロールスタイル"
+
+#: assets/block.js:473
+msgid "Label Color"
+msgstr "ラベル色"
+
+#: assets/block.js:481
+msgid "Dropdown Style"
+msgstr "ドロップダウンスタイル"
+
+#: assets/block.js:485 assets/block.js:585
+msgid "Light"
+msgstr "ライト"
+
+#: assets/block.js:486
+msgid "Dark"
+msgstr "ダーク"
+
+#: assets/block.js:492
+msgid "Dropdown Background Color"
+msgstr "ドロップダウン背景色"
+
+#: assets/block.js:504
+msgid "Progress Bar Styles"
+msgstr "進行バースタイル"
+
+#: assets/block.js:507
+msgid "Progress Bar Fill Color"
+msgstr "進行バー塗りつぶし色"
+
+#: assets/block.js:515
+msgid "Progress Text Color"
+msgstr "進行テキスト色"
+
+#: assets/block.js:523
+msgid "Weeks Count Color"
+msgstr "週数カウント色"
+
+#: assets/block.js:535
+msgid "Button Styles"
+msgstr "ボタンスタイル"
+
+#: assets/block.js:538
+msgid "Button Background Color"
+msgstr "ボタン背景色"
+
+#: assets/block.js:546
+msgid "Button Text Color"
+msgstr "ボタンテキスト色"
+
+#: assets/block.js:554
+msgid "Button Hover Background Color"
+msgstr "ボタンホバー背景色"
+
+#: assets/block.js:563
+msgid "Button Margin (px)"
+msgstr "ボタンマージン (px)"
+
+#: assets/block.js:572
+msgid "Button Border Radius (px)"
+msgstr "ボタンボーダー半径 (px)"
+
+#: assets/block.js:581
+msgid "Button Shadow"
+msgstr "ボタンシャドウ"
+
+#: assets/block.js:584
+msgid "None"
+msgstr "なし"
+
+#: assets/block.js:586
+msgid "Medium"
+msgstr "中"
+
+#: assets/block.js:587
+msgid "Deep"
+msgstr "深い"
+
+#: assets/block.js:597
+msgid "Form Labels"
+msgstr "フォームラベル"
+
+#: assets/block.js:600
+msgid "Day Label"
+msgstr "日ラベル"
+
+#: assets/block.js:610
+msgid "Day Placeholder"
+msgstr "日プレースホルダー"
+
+#: assets/block.js:620
+msgid "Month Label"
+msgstr "月ラベル"
+
+#: assets/block.js:630
+msgid "Month Placeholder"
+msgstr "月プレースホルダー"
+
+#: assets/block.js:640
+msgid "Year Label"
+msgstr "年ラベル"
+
+#: assets/block.js:650
+msgid "Year Placeholder"
+msgstr "年プレースホルダー"
+
+#: assets/block.js:660
+msgid "Custom Month Names"
+msgstr "カスタム月名"
+
+#: assets/block.js:749
+msgid "Note Section"
+msgstr "備考セクション"
+
+#: assets/block.js:752
+msgid "Custom Note Text"
+msgstr "カスタム備考テキスト"
+
+#: assets/block.js:761
+msgid "Note Background Color"
+msgstr "備考背景色"
+
+#: assets/block.js:769
+msgid "Note Text Color"
+msgstr "備考テキスト色"
+
+#: assets/block.js:777
+msgid "Validation Message"
+msgstr "検証メッセージ"
+
+#: assets/block.js:845
+#, fuzzy
+msgid "Select day"
+msgstr "日を選択"
+
+#: assets/block.js:869
+#, fuzzy
+msgid "Select month"
+msgstr "月を選択"
+
+#: assets/block.js:893
+#, fuzzy
+msgid "Select year"
+msgstr "年を選択"
+
+#: assets/block.js:936
+msgid "Results will appear here after calculation"
+msgstr "計算後に結果がここに表示されます"
+
+#: assets/block.js:973
+#, fuzzy
+msgid "Progress bar preview"
+msgstr "進行バースタイル"
+
+#~ msgid "Custom Calculate Button Text"
+#~ msgstr "カスタム計算ボタンテキスト"

@@ -1,0 +1,581 @@
+# Copyright (C) 2025 Valandi Angelidis
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stratonoakland's Pregnancy Due Date Calculator 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pregnancy-due-date-calculator-main\n"
+"Last-Translator: \n"
+"Language-Team: Korean\n"
+"Language: ko_KR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-10-27T03:05:26+00:00\n"
+"PO-Revision-Date: 2025-10-27 00:00:00+00:00\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: pregnancy-due-date-calculator\n"
+
+#. Plugin Name of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Stratonoakland's Pregnancy Due Date Calculator"
+msgstr "Stratonoakland의 출산 예정일 계산기"
+
+#. Plugin URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com/pregnancy-calculator"
+msgstr ""
+
+#. Description of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Adds a shortcode [pregnancy_due_date_calculator] to display a pregnancy due date calculator with full multilingual support for 8 languages and Gutenberg block integration."
+msgstr "[pregnancy_due_date_calculator] 단축 코드를 추가하여 17개 언어를 완벽히 지원하고 Gutenberg 블록과 통합된 출산 예정일 계산기를 표시합니다."
+
+#. Author of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Valandi Angelidis"
+msgstr ""
+
+#. Author URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com"
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:71
+msgid "Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP %s. Please upgrade PHP to use this plugin."
+msgstr "출산 예정일 계산기를 사용하려면 PHP %s 이상이 필요합니다. 현재 PHP %s을(를) 사용 중입니다. 이 플러그인을 사용하려면 PHP를 업데이트하세요."
+
+#: pregnancy-due-date-calculator.php:85
+msgid "Pregnancy Due Date Calculator requires WordPress %s or higher. You are running WordPress %s. Please upgrade WordPress to use this plugin."
+msgstr "출산 예정일 계산기를 사용하려면 WordPress %s 이상이 필요합니다. 현재 WordPress %s을(를) 사용 중입니다. 이 플러그인을 사용하려면 WordPress를 업데이트하세요."
+
+#: pregnancy-due-date-calculator.php:157
+#: pregnancy-due-date-calculator.php:383
+#: pregnancy-due-date-calculator.php:569
+#: assets/block.js:309
+#: assets/block.js:803
+msgid "Find Your Estimated Due Date"
+msgstr "예상 출산 예정일 확인"
+
+#: pregnancy-due-date-calculator.php:400
+#: pregnancy-due-date-calculator.php:577
+#: assets/block.js:350
+#: assets/block.js:812
+msgid "Enter the first day of your last menstrual period to calculate your estimated due date."
+msgstr "마지막 생리 시작일을 입력하면 예상 출산 예정일을 계산할 수 있습니다."
+
+#: pregnancy-due-date-calculator.php:450
+#: pregnancy-due-date-calculator.php:593
+#: pregnancy-due-date-calculator.php:960
+#: assets/block.js:604
+#: assets/block.js:833
+msgid "Day"
+msgstr "일"
+
+#: pregnancy-due-date-calculator.php:454
+#: pregnancy-due-date-calculator.php:594
+#: pregnancy-due-date-calculator.php:961
+#: assets/block.js:624
+#: assets/block.js:857
+msgid "Month"
+msgstr "월"
+
+#: pregnancy-due-date-calculator.php:458
+#: pregnancy-due-date-calculator.php:595
+#: pregnancy-due-date-calculator.php:962
+#: assets/block.js:644
+#: assets/block.js:881
+msgid "Year"
+msgstr "년"
+
+#: pregnancy-due-date-calculator.php:463
+#: pregnancy-due-date-calculator.php:598
+#: pregnancy-due-date-calculator.php:964
+#: assets/block.js:614
+msgid "Select Day"
+msgstr "일 선택"
+
+#: pregnancy-due-date-calculator.php:467
+#: pregnancy-due-date-calculator.php:599
+#: pregnancy-due-date-calculator.php:965
+#: assets/block.js:634
+msgid "Select Month"
+msgstr "월 선택"
+
+#: pregnancy-due-date-calculator.php:471
+#: pregnancy-due-date-calculator.php:600
+#: pregnancy-due-date-calculator.php:966
+#: assets/block.js:654
+msgid "Select Year"
+msgstr "년 선택"
+
+#: pregnancy-due-date-calculator.php:474
+#: pregnancy-due-date-calculator.php:604
+#: pregnancy-due-date-calculator.php:968
+#: assets/block.js:664
+msgid "January"
+msgstr "1월"
+
+#: pregnancy-due-date-calculator.php:475
+#: pregnancy-due-date-calculator.php:605
+#: pregnancy-due-date-calculator.php:969
+#: assets/block.js:671
+msgid "February"
+msgstr "2월"
+
+#: pregnancy-due-date-calculator.php:476
+#: pregnancy-due-date-calculator.php:606
+#: pregnancy-due-date-calculator.php:970
+#: assets/block.js:678
+msgid "March"
+msgstr "3월"
+
+#: pregnancy-due-date-calculator.php:477
+#: pregnancy-due-date-calculator.php:607
+#: pregnancy-due-date-calculator.php:971
+#: assets/block.js:685
+msgid "April"
+msgstr "4월"
+
+#: pregnancy-due-date-calculator.php:478
+#: pregnancy-due-date-calculator.php:608
+#: pregnancy-due-date-calculator.php:972
+#: assets/block.js:692
+msgid "May"
+msgstr "5월"
+
+#: pregnancy-due-date-calculator.php:479
+#: pregnancy-due-date-calculator.php:609
+#: pregnancy-due-date-calculator.php:973
+#: assets/block.js:699
+msgid "June"
+msgstr "6월"
+
+#: pregnancy-due-date-calculator.php:480
+#: pregnancy-due-date-calculator.php:610
+#: pregnancy-due-date-calculator.php:974
+#: assets/block.js:706
+msgid "July"
+msgstr "7월"
+
+#: pregnancy-due-date-calculator.php:481
+#: pregnancy-due-date-calculator.php:611
+#: pregnancy-due-date-calculator.php:975
+#: assets/block.js:713
+msgid "August"
+msgstr "8월"
+
+#: pregnancy-due-date-calculator.php:482
+#: pregnancy-due-date-calculator.php:612
+#: pregnancy-due-date-calculator.php:976
+#: assets/block.js:720
+msgid "September"
+msgstr "9월"
+
+#: pregnancy-due-date-calculator.php:483
+#: pregnancy-due-date-calculator.php:613
+#: pregnancy-due-date-calculator.php:977
+#: assets/block.js:727
+msgid "October"
+msgstr "10월"
+
+#: pregnancy-due-date-calculator.php:484
+#: pregnancy-due-date-calculator.php:614
+#: pregnancy-due-date-calculator.php:978
+#: assets/block.js:734
+msgid "November"
+msgstr "11월"
+
+#: pregnancy-due-date-calculator.php:485
+#: pregnancy-due-date-calculator.php:615
+#: pregnancy-due-date-calculator.php:979
+#: assets/block.js:741
+msgid "December"
+msgstr "12월"
+
+#: pregnancy-due-date-calculator.php:489
+#: pregnancy-due-date-calculator.php:625
+#: pregnancy-due-date-calculator.php:1000
+#: assets/block.js:755
+#: assets/block.js:993
+msgid "These are estimates only. For personalized advice, consult your clinician."
+msgstr "이는 추정치에 불과합니다. 개인별 조언은 의료 전문가와 상담하십시오."
+
+#: pregnancy-due-date-calculator.php:503
+#: pregnancy-due-date-calculator.php:630
+#: pregnancy-due-date-calculator.php:999
+#: assets/block.js:781
+msgid "Please select a day, month, and year."
+msgstr "일, 월, 연도를 모두 선택하십시오."
+
+#: pregnancy-due-date-calculator.php:548
+msgid "Calculator failed to load. Please check plugin installation."
+msgstr "계산기를 불러오지 못했습니다. 플러그인 설치 상태를 확인하십시오."
+
+#: pregnancy-due-date-calculator.php:746
+#: pregnancy-due-date-calculator.php:957
+#: assets/block.js:924
+msgid "Calculate Due Date"
+msgstr "출산 예정일 계산"
+
+#: pregnancy-due-date-calculator.php:782
+msgid "Calculator failed to load. Please try again later."
+msgstr "계산기를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요."
+
+#: pregnancy-due-date-calculator.php:958
+#: assets/block.js:9
+msgid "Pregnancy Due Date Calculator"
+msgstr "출산 예정일 계산기"
+
+#: pregnancy-due-date-calculator.php:959
+msgid "Enter the first day of your last menstrual period"
+msgstr "마지막 생리 시작일을 입력하세요"
+
+#: pregnancy-due-date-calculator.php:981
+msgid "Your Estimated Due Date:"
+msgstr "예상 출산 예정일:"
+
+#: pregnancy-due-date-calculator.php:982
+msgid "Estimated Due Date"
+msgstr "예상 출산 예정일"
+
+#: pregnancy-due-date-calculator.php:983
+msgid "Important Stages"
+msgstr "중요한 단계"
+
+#: pregnancy-due-date-calculator.php:984
+msgid "Last Menstrual Period:"
+msgstr "마지막 생리일:"
+
+#: pregnancy-due-date-calculator.php:985
+msgid "Conception Date:"
+msgstr "수정일:"
+
+#: pregnancy-due-date-calculator.php:986
+msgid "First Trimester Begins:"
+msgstr "임신 1기 시작:"
+
+#: pregnancy-due-date-calculator.php:987
+msgid "Second Trimester Begins:"
+msgstr "임신 2기 시작:"
+
+#: pregnancy-due-date-calculator.php:988
+msgid "Third Trimester Begins:"
+msgstr "임신 3기 시작:"
+
+#: pregnancy-due-date-calculator.php:990
+msgid "Weeks Pregnant:"
+msgstr "임신 주수:"
+
+#: pregnancy-due-date-calculator.php:991
+msgid "Pregnancy Progress"
+msgstr "임신 진행 상황"
+
+#: pregnancy-due-date-calculator.php:992
+msgid "Time remaining:"
+msgstr "남은 시간:"
+
+#: pregnancy-due-date-calculator.php:993
+msgid "months"
+msgstr "개월"
+
+#: pregnancy-due-date-calculator.php:994
+msgid "days"
+msgstr "일"
+
+#: pregnancy-due-date-calculator.php:995
+msgid "week"
+msgstr "주"
+
+#: pregnancy-due-date-calculator.php:996
+msgid "weeks"
+msgstr "주"
+
+#: pregnancy-due-date-calculator.php:998
+msgid "Invalid date selected"
+msgstr "잘못된 날짜가 선택되었습니다"
+
+#: pregnancy-due-date-calculator.php:1031
+msgid "Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP %s."
+msgstr "출산 예정일 계산기는 PHP %s 이상이 필요합니다. 현재 PHP %s을(를) 사용 중입니다."
+
+#: pregnancy-due-date-calculator.php:1044
+msgid "Pregnancy Due Date Calculator requires WordPress %s or higher. You are running WordPress %s."
+msgstr "출산 예정일 계산기는 WordPress %s 이상이 필요합니다. 현재 WordPress %s을(를) 사용 중입니다."
+
+#: assets/block.js:10
+msgid "A calculator to determine pregnancy due dates with Greek and English support."
+msgstr "그리스어와 영어를 지원하는 출산 예정일 계산기입니다."
+
+#: assets/block.js:14
+msgid "pregnancy"
+msgstr "임신"
+
+#: assets/block.js:15
+msgid "due date"
+msgstr "출산 예정일"
+
+#: assets/block.js:16
+msgid "calculator"
+msgstr "계산기"
+
+#: assets/block.js:276
+msgid "Left"
+msgstr "왼쪽"
+
+#: assets/block.js:277
+msgid "Center"
+msgstr "가운데"
+
+#: assets/block.js:278
+msgid "Right"
+msgstr "오른쪽"
+
+#: assets/block.js:302
+msgid "Title Section"
+msgstr "제목 섹션"
+
+#: assets/block.js:305
+msgid "Custom Title Text"
+msgstr "사용자 정의 제목 텍스트"
+
+#: assets/block.js:316
+msgid "Title Alignment"
+msgstr "제목 정렬"
+
+#: assets/block.js:324
+msgid "Title Font Family"
+msgstr "제목 글꼴 패밀리"
+
+#: assets/block.js:331
+msgid "Title Color"
+msgstr "제목 색상"
+
+#: assets/block.js:343
+msgid "Subtitle Section"
+msgstr "부제 섹션"
+
+#: assets/block.js:346
+msgid "Custom Subtitle Text"
+msgstr "사용자 정의 부제 텍스트"
+
+#: assets/block.js:357
+msgid "Subtitle Alignment"
+msgstr "부제 정렬"
+
+#: assets/block.js:365
+msgid "Subtitle Font Family"
+msgstr "부제 글꼴 패밀리"
+
+#: assets/block.js:372
+msgid "Subtitle Color"
+msgstr "부제 색상"
+
+#: assets/block.js:383
+msgid "Display Settings"
+msgstr "표시 설정"
+
+#: assets/block.js:387
+msgid "Alignment"
+msgstr "정렬"
+
+#: assets/block.js:395
+msgid "Show Progress Bar"
+msgstr "진행률 막대 표시"
+
+#: assets/block.js:396
+msgid "Display pregnancy progress bar with percentage."
+msgstr "임신 진행률을 백분율 막대로 표시합니다."
+
+#: assets/block.js:403
+msgid "Show Weeks Count"
+msgstr "주수 표시"
+
+#: assets/block.js:404
+msgid "Display remaining weeks and days in progress section."
+msgstr "진행 섹션에 남은 주와 일수를 표시합니다."
+
+#: assets/block.js:411
+msgid "Show Disclaimer Note"
+msgstr "면책 안내 표시"
+
+#: assets/block.js:412
+msgid "Display disclaimer text about estimates."
+msgstr "추정치에 대한 면책 문구를 표시합니다."
+
+#: assets/block.js:420
+msgid "Styling"
+msgstr "스타일"
+
+#: assets/block.js:423
+msgid "Background Color"
+msgstr "배경 색상"
+
+#: assets/block.js:431
+msgid "Text Color"
+msgstr "텍스트 색상"
+
+#: assets/block.js:440
+msgid "Border Radius (px)"
+msgstr "테두리 반경 (px)"
+
+#: assets/block.js:449
+msgid "Padding (px)"
+msgstr "패딩 (px)"
+
+#: assets/block.js:458
+msgid "Max Width (px)"
+msgstr "최대 너비 (px)"
+
+#: assets/block.js:470
+msgid "Controls Styling"
+msgstr "컨트롤 스타일"
+
+#: assets/block.js:473
+msgid "Label Color"
+msgstr "레이블 색상"
+
+#: assets/block.js:481
+msgid "Dropdown Style"
+msgstr "드롭다운 스타일"
+
+#: assets/block.js:485
+#: assets/block.js:585
+msgid "Light"
+msgstr "라이트"
+
+#: assets/block.js:486
+msgid "Dark"
+msgstr "다크"
+
+#: assets/block.js:492
+msgid "Dropdown Background Color"
+msgstr "드롭다운 배경 색상"
+
+#: assets/block.js:504
+msgid "Progress Bar Styles"
+msgstr "진행률 막대 스타일"
+
+#: assets/block.js:507
+msgid "Progress Bar Fill Color"
+msgstr "진행률 막대 채우기 색상"
+
+#: assets/block.js:515
+msgid "Progress Text Color"
+msgstr "진행률 텍스트 색상"
+
+#: assets/block.js:523
+msgid "Weeks Count Color"
+msgstr "주수 색상"
+
+#: assets/block.js:535
+msgid "Button Styles"
+msgstr "버튼 스타일"
+
+#: assets/block.js:538
+msgid "Button Background Color"
+msgstr "버튼 배경 색상"
+
+#: assets/block.js:546
+msgid "Button Text Color"
+msgstr "버튼 텍스트 색상"
+
+#: assets/block.js:554
+msgid "Button Hover Background Color"
+msgstr "버튼 호버 배경 색상"
+
+#: assets/block.js:563
+msgid "Button Margin (px)"
+msgstr "버튼 여백 (px)"
+
+#: assets/block.js:572
+msgid "Button Border Radius (px)"
+msgstr "버튼 테두리 반경 (px)"
+
+#: assets/block.js:581
+msgid "Button Shadow"
+msgstr "버튼 그림자"
+
+#: assets/block.js:584
+msgid "None"
+msgstr "없음"
+
+#: assets/block.js:586
+msgid "Medium"
+msgstr "중간"
+
+#: assets/block.js:587
+msgid "Deep"
+msgstr "깊게"
+
+#: assets/block.js:597
+msgid "Form Labels"
+msgstr "폼 레이블"
+
+#: assets/block.js:600
+msgid "Day Label"
+msgstr "일 레이블"
+
+#: assets/block.js:610
+msgid "Day Placeholder"
+msgstr "일 자리표시자"
+
+#: assets/block.js:620
+msgid "Month Label"
+msgstr "월 레이블"
+
+#: assets/block.js:630
+msgid "Month Placeholder"
+msgstr "월 자리표시자"
+
+#: assets/block.js:640
+msgid "Year Label"
+msgstr "년 레이블"
+
+#: assets/block.js:650
+msgid "Year Placeholder"
+msgstr "년 자리표시자"
+
+#: assets/block.js:660
+msgid "Custom Month Names"
+msgstr "사용자 정의 월 이름"
+
+#: assets/block.js:749
+msgid "Note Section"
+msgstr "안내 섹션"
+
+#: assets/block.js:752
+msgid "Custom Note Text"
+msgstr "사용자 정의 안내 문구"
+
+#: assets/block.js:761
+msgid "Note Background Color"
+msgstr "안내 배경 색상"
+
+#: assets/block.js:769
+msgid "Note Text Color"
+msgstr "안내 텍스트 색상"
+
+#: assets/block.js:777
+msgid "Validation Message"
+msgstr "유효성 검사 메시지"
+
+#: assets/block.js:845
+msgid "Select day"
+msgstr "일을 선택하세요"
+
+#: assets/block.js:869
+msgid "Select month"
+msgstr "월을 선택하세요"
+
+#: assets/block.js:893
+msgid "Select year"
+msgstr "년을 선택하세요"
+
+#: assets/block.js:936
+msgid "Results will appear here after calculation"
+msgstr "계산이 완료되면 결과가 여기에 표시됩니다."
+
+#: assets/block.js:973
+msgid "Progress bar preview"
+msgstr "진행률 막대 미리보기"

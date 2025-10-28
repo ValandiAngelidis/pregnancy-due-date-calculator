@@ -1,0 +1,566 @@
+# Greek translation for Pregnancy Due Date Calculator
+# Copyright (C) 2024 Pregnancy Due Date Calculator
+# This file is distributed under the same license as the Pregnancy Due Date Calculator plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Pregnancy Due Date Calculator 2.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/pregnancy-due-"
+"date-calculator-main\n"
+"POT-Creation-Date: 2025-10-27T03:05:26+00:00\n"
+"PO-Revision-Date: 2024-01-01 00:00:00+00:00\n"
+"Last-Translator: \n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Stratonoakland's Pregnancy Due Date Calculator"
+msgstr "Υπολογιστής Ημερομηνίας Τοκετού Stratonoakland"
+
+#. Plugin URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com/pregnancy-calculator"
+msgstr ""
+
+#. Description of the plugin
+#: pregnancy-due-date-calculator.php
+msgid ""
+"Adds a shortcode [pregnancy_due_date_calculator] to display a pregnancy due "
+"date calculator with full multilingual support for 8 languages and Gutenberg "
+"block integration."
+msgstr "Προσθέτει το shortcode [pregnancy_due_date_calculator] για να εμφανίσει έναν υπολογιστή ημερομηνίας τοκετού με πλήρη πολυγλωσσική υποστήριξη για 17 γλώσσες και ενσωμάτωση με μπλοκ Gutenberg."
+
+#. Author of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "Valandi Angelidis"
+msgstr ""
+
+#. Author URI of the plugin
+#: pregnancy-due-date-calculator.php
+msgid "https://yourwebsite.com"
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:71
+msgid ""
+"Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP "
+"%s. Please upgrade PHP to use this plugin."
+msgstr "Το Pregnancy Due Date Calculator απαιτεί PHP %s ή νεότερη. Χρησιμοποιείτε PHP %s. Αναβαθμίστε την PHP για να χρησιμοποιήσετε αυτό το πρόσθετο."
+
+#: pregnancy-due-date-calculator.php:85
+msgid ""
+"Pregnancy Due Date Calculator requires WordPress %s or higher. You are "
+"running WordPress %s. Please upgrade WordPress to use this plugin."
+msgstr "Το Pregnancy Due Date Calculator απαιτεί WordPress %s ή νεότερο. Χρησιμοποιείτε WordPress %s. Αναβαθμίστε το WordPress για να χρησιμοποιήσετε αυτό το πρόσθετο."
+
+#: pregnancy-due-date-calculator.php:157 pregnancy-due-date-calculator.php:383
+#: pregnancy-due-date-calculator.php:569 assets/block.js:309
+#: assets/block.js:803
+msgid "Find Your Estimated Due Date"
+msgstr "Βρείτε την Εκτιμώμενη Ημερομηνία Γέννησης"
+
+#: pregnancy-due-date-calculator.php:400 pregnancy-due-date-calculator.php:577
+#: assets/block.js:350 assets/block.js:812
+msgid ""
+"Enter the first day of your last menstrual period to calculate your "
+"estimated due date."
+msgstr ""
+"Εισάγετε την πρώτη ημέρα της τελευταίας σας εμμήνου ρύσης για να υπολογίσετε "
+"την εκτιμώμενη ημερομηνία γέννησης."
+
+#: pregnancy-due-date-calculator.php:450 pregnancy-due-date-calculator.php:593
+#: pregnancy-due-date-calculator.php:960 assets/block.js:604
+#: assets/block.js:833
+msgid "Day"
+msgstr "Ημέρα"
+
+#: pregnancy-due-date-calculator.php:454 pregnancy-due-date-calculator.php:594
+#: pregnancy-due-date-calculator.php:961 assets/block.js:624
+#: assets/block.js:857
+msgid "Month"
+msgstr "Μήνας"
+
+#: pregnancy-due-date-calculator.php:458 pregnancy-due-date-calculator.php:595
+#: pregnancy-due-date-calculator.php:962 assets/block.js:644
+#: assets/block.js:881
+msgid "Year"
+msgstr "Έτος"
+
+#: pregnancy-due-date-calculator.php:463 pregnancy-due-date-calculator.php:598
+#: pregnancy-due-date-calculator.php:964 assets/block.js:614
+msgid "Select Day"
+msgstr "Επιλέξτε Ημέρα"
+
+#: pregnancy-due-date-calculator.php:467 pregnancy-due-date-calculator.php:599
+#: pregnancy-due-date-calculator.php:965 assets/block.js:634
+msgid "Select Month"
+msgstr "Επιλέξτε Μήνα"
+
+#: pregnancy-due-date-calculator.php:471 pregnancy-due-date-calculator.php:600
+#: pregnancy-due-date-calculator.php:966 assets/block.js:654
+msgid "Select Year"
+msgstr "Επιλέξτε Έτος"
+
+#: pregnancy-due-date-calculator.php:474 pregnancy-due-date-calculator.php:604
+#: pregnancy-due-date-calculator.php:968 assets/block.js:664
+msgid "January"
+msgstr "Ιανουάριος"
+
+#: pregnancy-due-date-calculator.php:475 pregnancy-due-date-calculator.php:605
+#: pregnancy-due-date-calculator.php:969 assets/block.js:671
+msgid "February"
+msgstr "Φεβρουάριος"
+
+#: pregnancy-due-date-calculator.php:476 pregnancy-due-date-calculator.php:606
+#: pregnancy-due-date-calculator.php:970 assets/block.js:678
+msgid "March"
+msgstr "Μάρτιος"
+
+#: pregnancy-due-date-calculator.php:477 pregnancy-due-date-calculator.php:607
+#: pregnancy-due-date-calculator.php:971 assets/block.js:685
+msgid "April"
+msgstr "Απρίλιος"
+
+#: pregnancy-due-date-calculator.php:478 pregnancy-due-date-calculator.php:608
+#: pregnancy-due-date-calculator.php:972 assets/block.js:692
+msgid "May"
+msgstr "Μάιος"
+
+#: pregnancy-due-date-calculator.php:479 pregnancy-due-date-calculator.php:609
+#: pregnancy-due-date-calculator.php:973 assets/block.js:699
+msgid "June"
+msgstr "Ιούνιος"
+
+#: pregnancy-due-date-calculator.php:480 pregnancy-due-date-calculator.php:610
+#: pregnancy-due-date-calculator.php:974 assets/block.js:706
+msgid "July"
+msgstr "Ιούλιος"
+
+#: pregnancy-due-date-calculator.php:481 pregnancy-due-date-calculator.php:611
+#: pregnancy-due-date-calculator.php:975 assets/block.js:713
+msgid "August"
+msgstr "Αύγουστος"
+
+#: pregnancy-due-date-calculator.php:482 pregnancy-due-date-calculator.php:612
+#: pregnancy-due-date-calculator.php:976 assets/block.js:720
+msgid "September"
+msgstr "Σεπτέμβριος"
+
+#: pregnancy-due-date-calculator.php:483 pregnancy-due-date-calculator.php:613
+#: pregnancy-due-date-calculator.php:977 assets/block.js:727
+msgid "October"
+msgstr "Οκτώβριος"
+
+#: pregnancy-due-date-calculator.php:484 pregnancy-due-date-calculator.php:614
+#: pregnancy-due-date-calculator.php:978 assets/block.js:734
+msgid "November"
+msgstr "Νοέμβριος"
+
+#: pregnancy-due-date-calculator.php:485 pregnancy-due-date-calculator.php:615
+#: pregnancy-due-date-calculator.php:979 assets/block.js:741
+msgid "December"
+msgstr "Δεκέμβριος"
+
+#: pregnancy-due-date-calculator.php:489 pregnancy-due-date-calculator.php:625
+#: pregnancy-due-date-calculator.php:1000 assets/block.js:755
+#: assets/block.js:993
+msgid ""
+"These are estimates only. For personalized advice, consult your clinician."
+msgstr ""
+"Αυτές είναι μόνο εκτιμήσεις. Για εξατομικευμένες συμβουλές, συμβουλευτείτε "
+"τον γιατρό σας."
+
+#: pregnancy-due-date-calculator.php:503 pregnancy-due-date-calculator.php:630
+#: pregnancy-due-date-calculator.php:999 assets/block.js:781
+msgid "Please select a day, month, and year."
+msgstr "Παρακαλώ επιλέξτε ημέρα, μήνα και έτος."
+
+#: pregnancy-due-date-calculator.php:548
+msgid "Calculator failed to load. Please check plugin installation."
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:746 pregnancy-due-date-calculator.php:957
+#: assets/block.js:924
+msgid "Calculate Due Date"
+msgstr "Υπολογισμός Ημερομηνίας Γέννησης"
+
+#: pregnancy-due-date-calculator.php:782
+msgid "Calculator failed to load. Please try again later."
+msgstr ""
+
+#: pregnancy-due-date-calculator.php:958 assets/block.js:9
+msgid "Pregnancy Due Date Calculator"
+msgstr "Υπολογιστής Ημερομηνίας Γέννησης"
+
+#: pregnancy-due-date-calculator.php:959
+msgid "Enter the first day of your last menstrual period"
+msgstr "Εισάγετε την πρώτη ημέρα της τελευταίας εμμήνου ρύσης"
+
+#: pregnancy-due-date-calculator.php:981
+msgid "Your Estimated Due Date:"
+msgstr "Η Εκτιμώμενη Ημερομηνία Γέννησής σας:"
+
+#: pregnancy-due-date-calculator.php:982
+msgid "Estimated Due Date"
+msgstr "Εκτιμώμενη Ημερομηνία Γέννησης"
+
+#: pregnancy-due-date-calculator.php:983
+msgid "Important Stages"
+msgstr "Σημαντικές Φάσεις"
+
+#: pregnancy-due-date-calculator.php:984
+msgid "Last Menstrual Period:"
+msgstr "Τελευταία Έμμηνος Ρύση:"
+
+#: pregnancy-due-date-calculator.php:985
+msgid "Conception Date:"
+msgstr "Ημερομηνία Σύλληψης:"
+
+#: pregnancy-due-date-calculator.php:986
+msgid "First Trimester Begins:"
+msgstr "Αρχή Πρώτου Τριμήνου:"
+
+#: pregnancy-due-date-calculator.php:987
+msgid "Second Trimester Begins:"
+msgstr "Αρχή Δεύτερου Τριμήνου:"
+
+#: pregnancy-due-date-calculator.php:988
+msgid "Third Trimester Begins:"
+msgstr "Αρχή Τρίτου Τριμήνου:"
+
+#: pregnancy-due-date-calculator.php:990
+msgid "Weeks Pregnant:"
+msgstr "Εβδομάδες Εγκυμοσύνης:"
+
+#: pregnancy-due-date-calculator.php:991
+msgid "Pregnancy Progress"
+msgstr "Πρόοδος Εγκυμοσύνης"
+
+#: pregnancy-due-date-calculator.php:992
+msgid "Time remaining:"
+msgstr "Υπολειπόμενος χρόνος:"
+
+#: pregnancy-due-date-calculator.php:993
+msgid "months"
+msgstr "μήνες"
+
+#: pregnancy-due-date-calculator.php:994
+msgid "days"
+msgstr "ημέρες"
+
+#: pregnancy-due-date-calculator.php:995
+msgid "week"
+msgstr "εβδομάδα"
+
+#: pregnancy-due-date-calculator.php:996
+msgid "weeks"
+msgstr "εβδομάδες"
+
+#: pregnancy-due-date-calculator.php:998
+msgid "Invalid date selected"
+msgstr "Επιλέχθηκε μη έγκυρη ημερομηνία"
+
+#: pregnancy-due-date-calculator.php:1031
+msgid ""
+"Pregnancy Due Date Calculator requires PHP %s or higher. You are running PHP "
+"%s."
+msgstr "Το Pregnancy Due Date Calculator απαιτεί PHP %s ή νεότερη. Χρησιμοποιείτε PHP %s."
+
+#: pregnancy-due-date-calculator.php:1044
+msgid ""
+"Pregnancy Due Date Calculator requires WordPress %s or higher. You are "
+"running WordPress %s."
+msgstr "Το Pregnancy Due Date Calculator απαιτεί WordPress %s ή νεότερο. Χρησιμοποιείτε WordPress %s."
+
+# Block Editor Translations
+#: assets/block.js:10
+msgid ""
+"A calculator to determine pregnancy due dates with Greek and English support."
+msgstr ""
+"Ένας υπολογιστής για τον προσδιορισμό ημερομηνιών γέννησης με ελληνική και "
+"αγγλική υποστήριξη."
+
+#: assets/block.js:14
+msgid "pregnancy"
+msgstr "εγκυμοσύνη"
+
+#: assets/block.js:15
+msgid "due date"
+msgstr "ημερομηνία γέννησης"
+
+#: assets/block.js:16
+msgid "calculator"
+msgstr "υπολογιστής"
+
+#: assets/block.js:276
+msgid "Left"
+msgstr "Αριστερά"
+
+#: assets/block.js:277
+msgid "Center"
+msgstr "Κέντρο"
+
+#: assets/block.js:278
+msgid "Right"
+msgstr "Δεξιά"
+
+#: assets/block.js:302
+msgid "Title Section"
+msgstr "Ενότητα Τίτλου"
+
+#: assets/block.js:305
+msgid "Custom Title Text"
+msgstr "Προσαρμοσμένο Κείμενο Τίτλου"
+
+#: assets/block.js:316
+msgid "Title Alignment"
+msgstr "Στοίχιση Τίτλου"
+
+#: assets/block.js:324
+msgid "Title Font Family"
+msgstr "Γραμματοσειρά Τίτλου"
+
+#: assets/block.js:331
+msgid "Title Color"
+msgstr "Χρώμα Τίτλου"
+
+#: assets/block.js:343
+msgid "Subtitle Section"
+msgstr "Ενότητα Υπότιτλου"
+
+#: assets/block.js:346
+msgid "Custom Subtitle Text"
+msgstr "Προσαρμοσμένο Κείμενο Υπότιτλου"
+
+#: assets/block.js:357
+#, fuzzy
+msgid "Subtitle Alignment"
+msgstr "Στοίχιση Τίτλου"
+
+#: assets/block.js:365
+#, fuzzy
+msgid "Subtitle Font Family"
+msgstr "Γραμματοσειρά Τίτλου"
+
+#: assets/block.js:372
+#, fuzzy
+msgid "Subtitle Color"
+msgstr "Χρώμα Τίτλου"
+
+#: assets/block.js:383
+msgid "Display Settings"
+msgstr "Ρυθμίσεις Εμφάνισης"
+
+#: assets/block.js:387
+msgid "Alignment"
+msgstr "Στοίχιση"
+
+#: assets/block.js:395
+msgid "Show Progress Bar"
+msgstr "Εμφάνιση Μπάρας Προόδου"
+
+#: assets/block.js:396
+msgid "Display pregnancy progress bar with percentage."
+msgstr "Εμφάνιση μπάρας προόδου εγκυμοσύνης με ποσοστό."
+
+#: assets/block.js:403
+msgid "Show Weeks Count"
+msgstr "Εμφάνιση Μέτρησης Εβδομάδων"
+
+#: assets/block.js:404
+msgid "Display remaining weeks and days in progress section."
+msgstr "Εμφάνιση εναπομεινασών εβδομάδων και ημερών στην ενότητα προόδου."
+
+#: assets/block.js:411
+msgid "Show Disclaimer Note"
+msgstr "Εμφάνιση Σημείωσης Αποποίησης"
+
+#: assets/block.js:412
+msgid "Display disclaimer text about estimates."
+msgstr "Εμφάνιση κειμένου αποποίησης για εκτιμήσεις."
+
+#: assets/block.js:420
+msgid "Styling"
+msgstr "Στυλ"
+
+#: assets/block.js:423
+msgid "Background Color"
+msgstr "Χρώμα Φόντου"
+
+#: assets/block.js:431
+msgid "Text Color"
+msgstr "Χρώμα Κειμένου"
+
+#: assets/block.js:440
+msgid "Border Radius (px)"
+msgstr "Ακτίνα Περιγράμματος (px)"
+
+#: assets/block.js:449
+msgid "Padding (px)"
+msgstr "Εσωτερικό Περιθώριο (px)"
+
+#: assets/block.js:458
+msgid "Max Width (px)"
+msgstr "Μέγιστο Πλάτος (px)"
+
+#: assets/block.js:470
+msgid "Controls Styling"
+msgstr "Στυλ Ελέγχων"
+
+#: assets/block.js:473
+msgid "Label Color"
+msgstr "Χρώμα Ετικέτας"
+
+#: assets/block.js:481
+msgid "Dropdown Style"
+msgstr "Στυλ Αναπτυσσόμενου Μενού"
+
+#: assets/block.js:485 assets/block.js:585
+msgid "Light"
+msgstr "Ανοιχτό"
+
+#: assets/block.js:486
+msgid "Dark"
+msgstr "Σκούρο"
+
+#: assets/block.js:492
+msgid "Dropdown Background Color"
+msgstr "Χρώμα Φόντου Μενού"
+
+#: assets/block.js:504
+msgid "Progress Bar Styles"
+msgstr "Στυλ Μπάρας Προόδου"
+
+#: assets/block.js:507
+msgid "Progress Bar Fill Color"
+msgstr "Χρώμα Γεμίσματος Μπάρας"
+
+#: assets/block.js:515
+msgid "Progress Text Color"
+msgstr "Χρώμα Κειμένου Προόδου"
+
+#: assets/block.js:523
+msgid "Weeks Count Color"
+msgstr "Χρώμα Μέτρησης Εβδομάδων"
+
+#: assets/block.js:535
+msgid "Button Styles"
+msgstr "Στυλ Κουμπιού"
+
+#: assets/block.js:538
+msgid "Button Background Color"
+msgstr "Χρώμα Φόντου Κουμπιού"
+
+#: assets/block.js:546
+msgid "Button Text Color"
+msgstr "Χρώμα Κειμένου Κουμπιού"
+
+#: assets/block.js:554
+msgid "Button Hover Background Color"
+msgstr "Χρώμα Φόντου Κουμπιού στο Hover"
+
+#: assets/block.js:563
+msgid "Button Margin (px)"
+msgstr "Περιθώριο Κουμπιού (px)"
+
+#: assets/block.js:572
+msgid "Button Border Radius (px)"
+msgstr "Ακτίνα Περιγράμματος Κουμπιού (px)"
+
+#: assets/block.js:581
+msgid "Button Shadow"
+msgstr "Σκιά Κουμπιού"
+
+#: assets/block.js:584
+msgid "None"
+msgstr "Καμία"
+
+#: assets/block.js:586
+msgid "Medium"
+msgstr "Μεσαία"
+
+#: assets/block.js:587
+msgid "Deep"
+msgstr "Βαθιά"
+
+#: assets/block.js:597
+msgid "Form Labels"
+msgstr "Ετικέτες Φόρμας"
+
+#: assets/block.js:600
+msgid "Day Label"
+msgstr "Ετικέτα Ημέρας"
+
+#: assets/block.js:610
+msgid "Day Placeholder"
+msgstr "Πλαστικό Ημέρας"
+
+#: assets/block.js:620
+msgid "Month Label"
+msgstr "Ετικέτα Μήνα"
+
+#: assets/block.js:630
+msgid "Month Placeholder"
+msgstr "Πλαστικό Μήνα"
+
+#: assets/block.js:640
+msgid "Year Label"
+msgstr "Ετικέτα Έτους"
+
+#: assets/block.js:650
+msgid "Year Placeholder"
+msgstr "Πλαστικό Έτους"
+
+#: assets/block.js:660
+msgid "Custom Month Names"
+msgstr "Προσαρμοσμένα Ονόματα Μηνών"
+
+#: assets/block.js:749
+msgid "Note Section"
+msgstr "Ενότητα Σημείωσης"
+
+#: assets/block.js:752
+msgid "Custom Note Text"
+msgstr "Προσαρμοσμένο Κείμενο Σημείωσης"
+
+#: assets/block.js:761
+msgid "Note Background Color"
+msgstr "Χρώμα Φόντου Σημείωσης"
+
+#: assets/block.js:769
+msgid "Note Text Color"
+msgstr "Χρώμα Κειμένου Σημείωσης"
+
+#: assets/block.js:777
+msgid "Validation Message"
+msgstr "Μήνυμα Επικύρωσης"
+
+#: assets/block.js:845
+#, fuzzy
+msgid "Select day"
+msgstr "Επιλέξτε Ημέρα"
+
+#: assets/block.js:869
+#, fuzzy
+msgid "Select month"
+msgstr "Επιλέξτε Μήνα"
+
+#: assets/block.js:893
+#, fuzzy
+msgid "Select year"
+msgstr "Επιλέξτε Έτος"
+
+#: assets/block.js:936
+msgid "Results will appear here after calculation"
+msgstr "Τα αποτελέσματα θα εμφανιστούν εδώ μετά τον υπολογισμό"
+
+#: assets/block.js:973
+#, fuzzy
+msgid "Progress bar preview"
+msgstr "Στυλ Μπάρας Προόδου"
+
+#~ msgid "Custom Calculate Button Text"
+#~ msgstr "Προσαρμοσμένο Κείμενο Κουμπιού Υπολογισμού"

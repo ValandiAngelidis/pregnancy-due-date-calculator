@@ -1,0 +1,374 @@
+/**
+ * Pregnancy Due Date Calculator - Frontend Styles
+ * 
+ * This CSS ensures consistency with the Gutenberg block editor preview
+ * and supports all customization options available in the block settings.
+ */
+
+/* ========================================
+   FONT LOADING
+   ======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* ========================================
+   MAIN CONTAINER
+   ======================================== */
+.pregnancy-calculator {
+  max-width: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* Horizontal margins (left/right) are set via inline styles with !important */
+  padding: 24px;
+  border-radius: 8px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #333333;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Alignment classes removed - inline styles with !important control alignment */
+
+/* ========================================
+   HEADER SECTION
+   ======================================== */
+.pregnancy-calculator header {
+  margin-bottom: 24px;
+}
+
+.pregnancy-calculator header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  color: #2c3e50;
+  line-height: 1.3;
+  font-family: inherit;
+}
+
+.pregnancy-calculator header p {
+  font-size: 16px;
+  color: #6c757d;
+  margin: 0;
+  line-height: 1.4;
+  font-family: inherit;
+}
+
+/* ========================================
+   FORM SECTION
+   ======================================== */
+.pregnancy-calculator form {
+  margin-bottom: 24px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.form-grid label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  color: #495057;
+  font-family: inherit;
+}
+
+.form-grid label span {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.form-grid select {
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #ffffff;
+  color: #495057;
+  cursor: pointer;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: inherit;
+}
+
+.form-grid select:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.form-grid select:hover {
+  border-color: #adb5bd;
+}
+
+/* ========================================
+   BUTTON STYLING
+   ======================================== */
+.pregnancy-calculator button {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #007cba;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+  font-family: inherit;
+  box-shadow: 0 2px 4px rgba(0, 123, 186, 0.2);
+}
+
+.pregnancy-calculator button:hover {
+  background-color: #0056b3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 123, 186, 0.3);
+}
+
+.pregnancy-calculator button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 123, 186, 0.2);
+}
+
+.pregnancy-calculator button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+/* ========================================
+   RESULTS SECTION
+   ======================================== */
+.pregnancy-calculator .results {
+  margin-top: 24px;
+}
+
+.pregnancy-calculator .box {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  font-family: inherit;
+}
+
+.pregnancy-calculator .box:last-child {
+  margin-bottom: 0;
+}
+
+.pregnancy-calculator .box h3 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+  font-family: inherit;
+}
+
+.pregnancy-calculator .box p {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #495057;
+  font-family: inherit;
+}
+
+.pregnancy-calculator .box ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #495057;
+}
+
+.pregnancy-calculator .box li {
+  margin-bottom: 6px;
+}
+
+.pregnancy-calculator .box li:last-child {
+  margin-bottom: 0;
+}
+
+/* ========================================
+   PROGRESS BAR SECTION
+   ======================================== */
+.pregnancy-calculator .progress-section {
+  margin-top: 20px;
+  padding: 16px;
+  background: rgba(0, 124, 186, 0.05);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 124, 186, 0.2);
+}
+
+.pregnancy-calculator .progress-bar,
+.pregnancy-calculator .bar {
+  height: 12px;
+  background: #e9ecef;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 8px 0 12px 0;
+  position: relative;
+}
+
+.pregnancy-calculator .progress-fill,
+.pregnancy-calculator .fill {
+  height: 100%;
+  background: linear-gradient(90deg, #007cba, #0056b3);
+  border-radius: 6px;
+  transition: width 0.3s ease-in-out;
+}
+
+.pregnancy-calculator .progress-text {
+  font-size: 14px;
+  color: #495057;
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+/* ========================================
+   NOTE SECTION
+   ======================================== */
+.pregnancy-calculator .note-section {
+  margin-top: 20px;
+  padding: 12px 16px;
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 193, 7, 0.3);
+}
+
+.pregnancy-calculator .note-text,
+.pregnancy-calculator .note {
+  font-size: 13px;
+  color: #6c757d;
+  margin: 0;
+  line-height: 1.5;
+  font-style: italic;
+  font-family: inherit;
+}
+
+/* ========================================
+   ERROR STATES
+   ======================================== */
+.pregnancy-calculator .error {
+  color: #dc3545;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 8px 0;
+  padding: 8px 12px;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+@media (max-width: 768px) {
+  .pregnancy-calculator {
+    margin: 16px;
+    padding: 20px;
+    max-width: none;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .pregnancy-calculator header h2 {
+    font-size: 20px;
+  }
+
+  .pregnancy-calculator header p {
+    font-size: 14px;
+  }
+
+  .pregnancy-calculator button {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pregnancy-calculator {
+    margin: 12px;
+    padding: 16px;
+  }
+
+  .pregnancy-calculator header h2 {
+    font-size: 18px;
+  }
+
+  .pregnancy-calculator header p {
+    font-size: 13px;
+  }
+
+  .form-grid {
+    gap: 10px;
+  }
+
+  .form-grid select {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .pregnancy-calculator button {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+
+  .pregnancy-calculator .box {
+    padding: 16px;
+  }
+
+  .pregnancy-calculator .box h3 {
+    font-size: 16px;
+  }
+}
+
+/* ========================================
+   CUSTOM FONT FAMILY SUPPORT
+   ======================================== */
+.pregnancy-calculator [style*="font-family: Poppins"] {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.pregnancy-calculator [style*="font-family: Open Sans"] {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.pregnancy-calculator [style*="font-family: System UI"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* ========================================
+   ACCESSIBILITY IMPROVEMENTS
+   ======================================== */
+.pregnancy-calculator *:focus {
+  outline: 2px solid #007cba;
+  outline-offset: 2px;
+}
+
+.pregnancy-calculator button:focus,
+.pregnancy-calculator select:focus {
+  outline: 0;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .pregnancy-calculator {
+    border: 2px solid #000000;
+  }
+  
+  .pregnancy-calculator .box {
+    border: 1px solid #000000;
+  }
+  
+  .pregnancy-calculator button {
+    border: 2px solid #000000;
+  }
+}
+

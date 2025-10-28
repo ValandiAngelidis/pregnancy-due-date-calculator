@@ -1,0 +1,385 @@
+/**
+ * Pregnancy Due Date Calculator - Gutenberg Block Editor Styles
+ * 
+ * These styles apply only in the WordPress block editor (Gutenberg)
+ * and mirror the front-end styles to ensure visual consistency.
+ * All customization options are reflected accurately in the preview.
+ */
+
+/* ========================================
+   FONT LOADING (Same as frontend)
+   ======================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+/* ========================================
+   MAIN BLOCK EDITOR CONTAINER
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 24px;
+  margin: 16px 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  min-height: 200px;
+  box-sizing: border-box;
+}
+
+/* Block preview indicator */
+.wp-block-editor .pregnancy-calculator-block-preview::before {
+  content: "Pregnancy Calculator Preview";
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 11px;
+  font-style: italic;
+  color: #999999;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: normal;
+  z-index: 10;
+}
+
+/* ========================================
+   HEADER SECTION (Matches frontend)
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 8px 0 !important;
+  color: #2c3e50;
+  line-height: 1.3;
+  font-family: inherit;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview p {
+  font-size: 16px;
+  color: #6c757d;
+  margin: 0 0 8px 0 !important;
+  line-height: 1.4;
+  font-family: inherit;
+}
+
+/* ========================================
+   FORM ELEMENTS (Matches frontend)
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview .form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  color: #495057;
+  font-family: inherit;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview label span {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview select {
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  font-size: 14px;
+  background: #ffffff;
+  color: #495057;
+  cursor: pointer;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: inherit;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview select:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview select:hover {
+  border-color: #adb5bd;
+}
+
+/* ========================================
+   BUTTON STYLING (Matches frontend)
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview button {
+  width: 100%;
+  padding: 12px 24px;
+  background-color: #007cba;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: not-allowed;
+  font-family: inherit;
+  box-shadow: 0 2px 4px rgba(0, 123, 186, 0.2);
+  opacity: 0.7;
+  transition: all 0.15s ease-in-out;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 123, 186, 0.3);
+}
+
+/* ========================================
+   RESULTS PREVIEW SECTION
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview .results-preview {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  text-align: center;
+  font-style: italic;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* ========================================
+   PROGRESS BAR PREVIEW (Matches frontend)
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview .progress-preview {
+  margin-top: 20px;
+  padding: 16px;
+  background: rgba(0, 124, 186, 0.05);
+  border-radius: 6px;
+  border: 1px solid rgba(0, 124, 186, 0.2);
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview .progress-bar-container {
+  height: 12px;
+  background: #e9ecef;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 8px 0 12px 0;
+  position: relative;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview .progress-fill-preview {
+  height: 100%;
+  background: linear-gradient(90deg, #007cba, #0056b3);
+  border-radius: 6px;
+  transition: width 0.3s ease-in-out;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview .progress-text-preview {
+  font-size: 14px;
+  color: #495057;
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+/* ========================================
+   NOTE PREVIEW SECTION (Matches frontend)
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview .note-preview {
+  margin-top: 15px;
+  padding: 12px 16px;
+  background: rgba(255, 193, 7, 0.1);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 193, 7, 0.3);
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview .note-text-preview {
+  font-size: 13px;
+  color: #6c757d;
+  margin: 0;
+  line-height: 1.5;
+  font-style: italic;
+  font-family: inherit;
+}
+
+/* ========================================
+   CUSTOM FONT FAMILY SUPPORT (Same as frontend)
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview [style*="font-family: Poppins"] {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview [style*="font-family: Open Sans"] {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview [style*="font-family: System UI"] {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN (Matches frontend)
+   ======================================== */
+@media (max-width: 782px) {
+  .wp-block-editor .pregnancy-calculator-block-preview {
+    padding: 20px;
+    margin: 12px 0;
+  }
+  
+  .wp-block-editor .pregnancy-calculator-block-preview::before {
+    font-size: 10px;
+    padding: 1px 4px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview .form-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview h3 {
+    font-size: 20px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wp-block-editor .pregnancy-calculator-block-preview {
+    padding: 16px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview h3 {
+    font-size: 18px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview p {
+    font-size: 13px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview .form-grid {
+    gap: 10px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview select {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .wp-block-editor .pregnancy-calculator-block-preview button {
+    padding: 12px 16px;
+    font-size: 15px;
+  }
+}
+
+/* ========================================
+   EDITOR-SPECIFIC ENHANCEMENTS
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview:hover {
+  border-color: #007cba;
+  box-shadow: 0 3px 12px rgba(0, 124, 186, 0.15);
+  transition: all 0.2s ease-in-out;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview:focus-within {
+  outline: 2px solid #007cba;
+  outline-offset: 2px;
+}
+
+/* ========================================
+   INSPECTOR CONTROLS STYLING ENHANCEMENTS
+   ======================================== */
+.wp-block-editor .components-panel__body-title {
+  font-weight: 600;
+}
+
+.wp-block-editor .components-color-palette {
+  margin-top: 8px;
+}
+
+.wp-block-editor .components-range-control__wrapper {
+  margin-bottom: 16px;
+}
+
+/* ========================================
+   LOADING STATE STYLING
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview.is-loading {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview.is-loading::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #007cba;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ========================================
+   PLACEHOLDER STATE
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview.is-placeholder {
+  text-align: center;
+  color: #8f98a1;
+  background: #f7f7f7;
+  border-style: dashed;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview.is-placeholder::before {
+  content: "Pregnancy Calculator Block";
+  position: static;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #555d66;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+/* ========================================
+   ACCESSIBILITY IMPROVEMENTS (Matches frontend)
+   ======================================== */
+.wp-block-editor .pregnancy-calculator-block-preview *:focus {
+  outline: 2px solid #007cba;
+  outline-offset: 2px;
+}
+
+.wp-block-editor .pregnancy-calculator-block-preview button:focus,
+.wp-block-editor .pregnancy-calculator-block-preview select:focus {
+  outline: 0;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .wp-block-editor .pregnancy-calculator-block-preview {
+    border: 2px solid #000000;
+  }
+  
+  .wp-block-editor .pregnancy-calculator-block-preview .results-preview,
+  .wp-block-editor .pregnancy-calculator-block-preview .progress-preview,
+  .wp-block-editor .pregnancy-calculator-block-preview .note-preview {
+    border: 1px solid #000000;
+  }
+  
+  .wp-block-editor .pregnancy-calculator-block-preview button {
+    border: 2px solid #000000;
+  }
+}
