@@ -203,7 +203,7 @@ pregnancy-due-date-calculator-main/
 ---
 
 ### 🖼️ Demo Preview
-*Screenshot and demo GIF can be added here*
+*Screenshot and demo GIF will be added here soon*
 
 ---
 
