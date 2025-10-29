@@ -15,6 +15,22 @@
             __('due date', 'pregnancy-due-date-calculator'),
             __('calculator', 'pregnancy-due-date-calculator')
         ],
+        // Provide a small example preview so Gutenberg/inserter shows a hover preview
+        // This does not change runtime behavior; it only supplies attributes for the preview renderer
+        example: {
+            attributes: {
+                customTitleText: __('Find Your Estimated Due Date', 'pregnancy-due-date-calculator'),
+                customSubtitleText: __('Enter the first day of your last menstrual period to calculate your estimated due date.', 'pregnancy-due-date-calculator'),
+                backgroundColor: '#f8f9fa',
+                titleColor: '#333333',
+                subtitleColor: '#666666',
+                buttonBgColor: '#007cba',
+                buttonTextColor: '#ffffff',
+                progressFillColor: '#007cba',
+                showProgressBar: true,
+                showNote: true
+            }
+        },
         attributes: {
             backgroundColor: {
                 type: 'string',
