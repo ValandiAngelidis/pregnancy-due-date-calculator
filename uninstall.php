@@ -9,6 +9,18 @@
  * @since 2.1.0
  */
 
+/**
+ * Copyright (c) 2025 Valandi Angelidis
+ *
+ * Released under the GNU General Public License v2 or later
+ * https://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ */
+
 // Exit if uninstall not called from WordPress
 if (!defined('WP_UNINSTALL_PLUGIN')) {
     exit;

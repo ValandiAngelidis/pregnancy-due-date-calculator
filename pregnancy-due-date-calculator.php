@@ -26,6 +26,18 @@ if (!defined('WPINC')) die;
 // Define plugin constants
 define('PREGNANCY_CALC_VERSION', '2.1.1');
 define('PREGNANCY_CALC_MIN_PHP', '7.4');
+
+/**
+ * Copyright (c) 2025 Valandi Angelidis
+ *
+ * Released under the GNU General Public License v2 or later
+ * https://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ */
 define('PREGNANCY_CALC_MIN_WP', '5.8');
 
 class PregnancyDueDateCalculator {
